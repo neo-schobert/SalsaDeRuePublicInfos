@@ -1,0 +1,483 @@
+{
+  "secteurs": [
+    {
+      "name": "Finistère",
+      "title": "Secteur Finistère",
+      "imageDepartement": "./images/finistere.jpg",
+      "iconDepartement": "/images/iconBretagne.png",
+      "instagramLink": "https://www.instagram.com/salsaderue_finistere/",
+      "facebookLink": "https://www.facebook.com/AssociationSalsaderue",
+      "email": "salsaderue_brest@hotmail.com",
+      "villes": [
+        {
+          "name": "Brest",
+          "image": "./images/brest.jpg",
+          "danses": [
+            {
+              "name": "Salsa Cubaine",
+              "infos": {
+                "title": "Cours de Salsa Cubaine",
+                "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
+                "items": [
+                  "10h de Cours par semaine",
+                  "3 niveaux: débutants, intermédiaires et avancées",
+                  "Rattrapage des Absences Possible",
+                  "Essai Gratuit",
+                  "Disponible sur Brest, Briec, Quimper et Pont l'Abbé"
+                ],
+                "image": "/images/exemple.webp"
+              },
+              "cours": [
+                {
+                  "niveau": 1,
+                  "horaire": {
+                    "debutHeure": 19,
+                    "debutMinutes": 45,
+                    "finHeure": 20,
+                    "finMinutes": 45
+                  },
+                  "jour": "Mardi",
+                  "adresse": "L'Orange Bleue, 44 Rue D'Aiguillon, Brest",
+                  "adresseUrl": "https://www.google.fr/maps/place/l'Orange+bleue/@48.3591515,-4.7219013,11z/data=!4m10!1m2!2m1!1sl'orange+bleue!3m6!1s0x4816b95751bbf3a5:0xb20c0ecee9c51be8!8m2!3d48.3865742!4d-4.4905125!15sCg5sJ29yYW5nZSBibGV1ZSIDiAEBWhAiDmwgb3JhbmdlIGJsZXVlkgEOZml0bmVzc19jZW50ZXLgAQA!16s%2Fg%2F11hbqlj3mz?entry=ttu",
+                  "reprise": "2024-09-17",
+                  "professeur": {
+                    "professeurName": "Néo",
+                    "professeurPhoto": "./images/profs/neo.png",
+                    "professeurPhone": "07 82 15 78 06",
+                    "professeurDescription": ""
+                  }
+                },
+                {
+                  "niveau": 2,
+                  "horaire": {
+                    "debutHeure": 21,
+                    "debutMinutes": 0,
+                    "finHeure": 22,
+                    "finMinutes": 0
+                  },
+                  "jour": "Mardi",
+                  "adresse": "L'Orange Bleue, 44 Rue D'Aiguillon, Brest",
+                  "adresseUrl": "https://www.google.fr/maps/place/l'Orange+bleue",
+                  "reprise": "2024-09-17",
+                  "professeur": {
+                    "professeurName": "Néo",
+                    "professeurPhoto": "./images/profs/neo.png",
+                    "professeurPhone": "07 82 15 78 06",
+                    "professeurDescription": ""
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Salsa Cubaine Style",
+              "infos": {
+                "title": "Cours Style de Salsa Cubaine",
+                "description": "La salsa cubaine 💃 est une danse riche en style et en émotions, mêlant rythmes afro-cubains et expression personnelle. Ouverts à tous, nos cours vous permettent de progresser, débutant ou avancé, et de révéler votre potentiel avec SalsaDeRue 🔥.",
+                "items": [
+                  "Un niveau unique pour tous, adapté aux débutants comme aux avancés",
+                  "Essai Gratuit",
+                  "Disponible uniquement à Brest !"
+                ],
+                "image": "/images/exemple.webp"
+              },
+              "cours": [
+                {
+                  "niveau": 1,
+                  "horaire": {
+                    "debutHeure": 20,
+                    "debutMinutes": 30,
+                    "finHeure": 21,
+                    "finMinutes": 30
+                  },
+                  "jour": "Jeudi",
+                  "adresse": "L'Orange Bleue, 44 Rue D'Aiguillon, Brest",
+                  "adresseUrl": "https://www.google.fr/maps/place/l'Orange+bleue",
+                  "reprise": "2024-09-17",
+                  "professeur": {
+                    "professeurName": "Néo",
+                    "professeurPhoto": "./images/profs/neo.png",
+                    "professeurPhone": "07 82 15 78 06",
+                    "professeurDescription": ""
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quimper",
+          "image": "./images/quimper.jpg",
+          "danses": [
+            {
+              "name": "Salsa Cubaine",
+              "infos": {
+                "title": "Cours de Salsa Cubaine",
+                "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
+                "items": [
+                  "10h de Cours par semaine",
+                  "3 niveaux: débutants, intermédiaires et avancées",
+                  "Rattrapage des Absences Possible",
+                  "Essai Gratuit",
+                  "Disponible sur Brest, Briec, Quimper et Pont l'Abbé"
+                ],
+                "image": "/images/exemple.webp"
+              },
+              "cours": [
+                {
+                  "niveau": 1,
+                  "horaire": {
+                    "debutHeure": 20,
+                    "debutMinutes": 0,
+                    "finHeure": 21,
+                    "finMinutes": 0
+                  },
+                  "jour": "Mardi",
+                  "adresse": "L'Orange Bleue, 11 Allée Pierre Louet, Quimper",
+                  "adresseUrl": "https://www.google.fr/maps/place/l'Orange+bleue/@47.9392576,-4.2861426,11z/data=!4m10!1m2!2m1!1sl'orange+bleue!3m6!1s0x48112b4734ea8e0f:0x772db9650b1124cf!8m2!3d48.017819!4d-4.08572!15sCg5sJ29yYW5nZSBibGV1ZSIDiAEBWhAiDmwgb3JhbmdlIGJsZXVlkgEDZ3lt4AEA!16s%2Fg%2F11qg9vkx8p?entry=ttu",
+                  "reprise": "2024-09-16",
+                  "professeur": {
+                    "professeurName": "Laurent",
+                    "professeurPhoto": "./images/profs/laurent.png",
+                    "professeurPhone": "06 73 67 63 37",
+                    "professeurDescription": ""
+                  }
+                },
+                {
+                  "niveau": 2,
+                  "horaire": {
+                    "debutHeure": 21,
+                    "debutMinutes": 0,
+                    "finHeure": 22,
+                    "finMinutes": 0
+                  },
+                  "jour": "Mardi",
+                  "adresse": "L'Orange Bleue, 11 Allée Pierre Louet, Quimper",
+                  "adresseUrl": "https://www.google.fr/maps/place/l'Orange+bleue/@47.9392576,-4.2861426,11z/data=!4m10!1m2!2m1!1sl'orange+bleue!3m6!1s0x48112b4734ea8e0f:0x772db9650b1124cf!8m2!3d48.017819!4d-4.08572!15sCg5sJ29yYW5nZSBibGV1ZSIDiAEBWhAiDmwgb3JhbmdlIGJsZXVlkgEDZ3lt4AEA!16s%2Fg%2F11qg9vkx8p?entry=ttu",
+                  "reprise": "2024-09-16",
+                  "professeur": {
+                    "professeurName": "Laurent",
+                    "professeurPhoto": "./images/profs/laurent.png",
+                    "professeurPhone": "06 73 67 63 37",
+                    "professeurDescription": ""
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        [
+          {
+            "name": "Pont L'abbé",
+            "image": "./images/pont-l-abbe.jpg",
+            "danses": [
+              {
+                "name": "Salsa Cubaine",
+                "infos": {
+                  "title": "Cours de Salsa Cubaine",
+                  "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
+                  "items": [
+                    "10h de Cours par semaine",
+                    "3 niveaux: débutants, intermédiaires et avancées",
+                    "Rattrapage des Absences Possible",
+                    "Essai Gratuit",
+                    "Disponible sur Brest, Briec, Quimper et Pont l'Abbé"
+                  ],
+                  "image": "/images/exemple.webp"
+                },
+                "cours": [
+                  {
+                    "niveau": 1,
+                    "horaire": {
+                      "debutHeure": 19,
+                      "debutMinutes": 30,
+                      "finHeure": 20,
+                      "finMinutes": 30
+                    },
+                    "jour": "Mercredi",
+                    "adresse": "L'Appart Fitness, Lieu-dit Kerganet, Plonéour-Lanvern",
+                    "adresseUrl": "https://www.google.fr/maps/place/L'Appart+Fitness+-+salle+de+sport+Plon%C3%A9our-Lanvern/@47.8703474,-4.242096,19z/data=!4m10!1m2!2m1!1sappart+fitness!3m6!1s0x48172e765a6b9c4f:0xe76b5e75c2807e38!8m2!3d47.8701718!4d-4.2410736!15sCg5hcHBhcnQgZml0bmVzcyIDiAEBWhAiDmFwcGFydCBmaXRuZXNzkgELc3BvcnRzX2NsdWLgAQA!16s%2Fg%2F11cs4yh8k8?entry=ttu",
+                    "reprise": "2024-09-16",
+                    "professeur": {
+                      "professeurName": "Laurent",
+                      "professeurPhoto": "./images/profs/laurent.png",
+                      "professeurPhone": "06 73 67 63 37",
+                      "professeurDescription": ""
+                    }
+                  },
+                  {
+                    "niveau": 2,
+                    "horaire": {
+                      "debutHeure": 20,
+                      "debutMinutes": 30,
+                      "finHeure": 21,
+                      "finMinutes": 30
+                    },
+                    "jour": "Mercredi",
+                    "adresse": "L'Appart Fitness, Lieu-dit Kerganet, Plonéour-Lanvern",
+                    "adresseUrl": "https://www.google.fr/maps/place/L'Appart+Fitness+-+salle+de+sport+Plon%C3%A9our-Lanvern/@47.8703474,-4.242096,19z/data=!4m10!1m2!2m1!1sappart+fitness!3m6!1s0x48172e765a6b9c4f:0xe76b5e75c2807e38!8m2!3d47.8701718!4d-4.2410736!15sCg5hcHBhcnQgZml0bmVzcyIDiAEBWhAiDmFwcGFydCBmaXRuZXNzkgELc3BvcnRzX2NsdWLgAQA!16s%2Fg%2F11cs4yh8k8?entry=ttu",
+                    "reprise": "2024-09-16",
+                    "professeur": {
+                      "professeurName": "Laurent",
+                      "professeurPhoto": "./images/profs/laurent.png",
+                      "professeurPhone": "06 73 67 63 37",
+                      "professeurDescription": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Bachata",
+                "infos": {
+                  "title": "Cours de Bachata",
+                  "description": "La bachata moderne, originaire de République dominicaine, est une danse de couple aux mouvements fluides et sensuels 💃. Elle combine des éléments traditionnels avec des influences contemporaines 🎶, mettant l'accent sur la connexion entre les partenaires 👥.",
+                  "items": [
+                    "2h de Cours par semaine",
+                    "Rattrapage des Absences Possible",
+                    "Essai Gratuit",
+                    "Disponible sur Pont l'Abbé, Briec"
+                  ],
+                  "image": "/images/exemple.webp"
+                },
+                "cours": [
+                  {
+                    "niveau": 1,
+                    "horaire": {
+                      "debutHeure": 20,
+                      "debutMinutes": 15,
+                      "finHeure": 21,
+                      "finMinutes": 15
+                    },
+                    "jour": "Lundi",
+                    "adresse": "L'Appart Fitness, Lieu-dit Kerganet, Plonéour-Lanvern",
+                    "adresseUrl": "https://www.google.fr/maps/place/L'Appart+Fitness+-+salle+de+sport+Plon%C3%A9our-Lanvern/@47.8703474,-4.242096,19z/data=!4m10!1m2!2m1!1sappart+fitness!3m6!1s0x48172e765a6b9c4f:0xe76b5e75c2807e38!8m2!3d47.8701718!4d-4.2410736!15sCg5hcHBhcnQgZml0bmVzcyIDiAEBWhAiDmFwcGFydCBmaXRuZXNzkgELc3BvcnRzX2NsdWLgAQA!16s%2Fg%2F11cs4yh8k8?entry=ttu",
+                    "reprise": "2024-09-16",
+                    "professeur": {
+                      "professeurName": "Laurent",
+                      "professeurPhoto": "./images/profs/laurent.png",
+                      "professeurPhone": "06 73 67 63 37",
+                      "professeurDescription": ""
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Briec",
+            "image": "./images/briec.jpg",
+            "danses": [
+              {
+                "name": "Salsa Cubaine",
+                "infos": {
+                  "title": "Cours de Salsa Cubaine",
+                  "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
+                  "items": [
+                    "10h de Cours par semaine",
+                    "3 niveaux: débutants, intermédiaires et avancées",
+                    "Rattrapage des Absences Possible",
+                    "Essai Gratuit",
+                    "Disponible sur Brest, Briec, Quimper et Pont l'Abbé"
+                  ],
+                  "image": "/images/exemple.webp"
+                },
+                "cours": [
+                  {
+                    "niveau": 1,
+                    "horaire": {
+                      "debutHeure": 19,
+                      "debutMinutes": 0,
+                      "finHeure": 20,
+                      "finMinutes": 0
+                    },
+                    "jour": "Jeudi",
+                    "adresse": "L'Appart Fitness, Lieu-dit Kerganet, Plonéour-Lanvern",
+                    "adresseUrl": "https://www.google.fr/maps/place/L'Appart+Fitness+-+salle+de+sport+Plon%C3%A9our-Lanvern/@47.8703474,-4.242096,19z/data=!4m10!1m2!2m1!1sappart+fitness!3m6!1s0x48172e765a6b9c4f:0xe76b5e75c2807e38!8m2!3d47.8701718!4d-4.2410736!15sCg5hcHBhcnQgZml0bmVzcyIDiAEBWhAiDmFwcGFydCBmaXRuZXNzkgELc3BvcnRzX2NsdWLgAQA!16s%2Fg%2F11cs4yh8k8?entry=ttu",
+                    "reprise": "2024-09-16",
+                    "professeur": {
+                      "professeurName": "Laurent",
+                      "professeurPhoto": "./images/profs/laurent.png",
+                      "professeurPhone": "06 73 67 63 37",
+                      "professeurDescription": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Bachata",
+                "infos": {
+                  "title": "Cours de Bachata",
+                  "description": "La bachata moderne, originaire de République dominicaine, est une danse de couple aux mouvements fluides et sensuels 💃. Elle combine des éléments traditionnels avec des influences contemporaines 🎶, mettant l'accent sur la connexion entre les partenaires 👥.",
+                  "items": [
+                    "2h de Cours par semaine",
+                    "Rattrapage des Absences Possible",
+                    "Essai Gratuit",
+                    "Disponible sur Pont l'Abbé, Briec"
+                  ],
+                  "image": "/images/exemple.webp"
+                },
+                "cours": [
+                  {
+                    "niveau": 1,
+                    "horaire": {
+                      "debutHeure": 20,
+                      "debutMinutes": 0,
+                      "finHeure": 21,
+                      "finMinutes": 0
+                    },
+                    "jour": "Mardi",
+                    "adresse": "La Casa Negra, Route de Quimper, Langolen",
+                    "adresseUrl": "https://www.google.fr/maps/place/CASANEGRA/@48.0652318,-3.9297828,14.75z/data=!4m6!3m5!1s0x481127094b060eef:0xe472a4c263ec01fb!8m2!3d48.0649598!4d-3.9288175!16s%2Fg%2F11y56_y3k8?entry=ttu",
+                    "reprise": "2024-09-16",
+                    "professeur": {
+                      "professeurName": "Laurent",
+                      "professeurPhoto": "./images/profs/laurent.png",
+                      "professeurPhone": "06 73 67 63 37",
+                      "professeurDescription": ""
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ],
+      "tarifs": [
+        {
+          "name": "Une Danse",
+          "tarif": 210,
+          "image": "./images/etudiant-decouverte.png",
+          "description": "Ce Pass permet la participation, pour une danse, à tous les cours donnés par SalsaDeRue dans tout le secteur Finistère",
+          "studentTarif": 180
+        },
+        {
+          "name": "Deux Danses",
+          "tarif": 290,
+          "image": "./images/etudiant-full-pass.png",
+          "description": "Ce Pass permet la participation à toutes les danses et cours donnés par SalsaDeRue dans tout le secteur Finistère",
+          "studentTarif": 260
+        },
+        {
+          "name": "Toutes Danses",
+          "tarif": 350,
+          "image": "./images/decouverte.png",
+          "description": "Ce Pass permet la participation, pour toutes les danse, à tous les cours donnés par SalsaDeRue dans tout le secteur Finistère",
+          "studentTarif": 300
+        }
+      ]
+    },
+    {
+      "name": "bordeaux",
+      "title": "Secteur Bordeaux",
+      "imageDepartement": "./images/bordeaux.png",
+      "iconDepartement": "/images/iconBordeaux.png",
+      "villes": [
+        {
+          "name": "Bassens",
+          "image": "./images/bordeaux.png",
+          "danses": {
+            "name": "Salsa Cubaine",
+            "infos": {
+              "title": "Cours de Salsa Cubaine",
+              "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
+              "items": [
+                "2 niveaux: débutants, intermédiaires",
+                "Essai Gratuit"
+              ],
+              "image": "/images/exemple.webp"
+            },
+            "cours": [
+              {
+                "niveau": 1,
+                "horaire": {
+                  "debutHeure": 20,
+                  "debutMinutes": 0,
+                  "finHeure": 21,
+                  "finMinutes": 0
+                },
+                "jour": "Mercredi",
+                "adresse": "Rue Charles Péguy, Bassens",
+                "adresseUrl": "https://www.google.fr/maps/place/Rue+Charles+P%C3%A9guy,+33530+Bassens/@44.9129282,-0.5097143,18.25z/data=!4m6!3m5!1s0xd552ebce46d7531:0x13b17ccb70c744f1!8m2!3d44.9133966!4d-0.5095801!16s%2Fg%2F1tgh499b?entry=ttu",
+                "reprise": "2024-08-11",
+                "professeur": {
+                  "professeurName": "Sandrine",
+                  "professeurPhoto": "./images/profs/sandrine.jpg",
+                  "professeurPhone": "06 24 14 77 61",
+                  "professeurDescription": ""
+                }
+              },
+              {
+                "niveau": 2,
+                "horaire": {
+                  "debutHeure": 19,
+                  "debutMinutes": 0,
+                  "finHeure": 20,
+                  "finMinutes": 0
+                },
+                "jour": "Mercredi",
+                "adresse": "Rue Charles Péguy, Bassens",
+                "adresseUrl": "https://www.google.fr/maps/place/Rue+Charles+P%C3%A9guy,+33530+Bassens/@44.9129282,-0.5097143,18.25z/data=!4m6!3m5!1s0xd552ebce46d7531:0x13b17ccb70c744f1!8m2!3d44.9133966!4d-0.5095801!16s%2Fg%2F1tgh499b?entry=ttu",
+                "reprise": "2024-08-11",
+                "professeur": {
+                  "professeurName": "Sandrine",
+                  "professeurPhoto": "./images/profs/sandrine.jpg",
+                  "professeurPhone": "06 24 14 77 61",
+                  "professeurDescription": ""
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "tarifs": [
+        {
+          "name": "Une Danse",
+          "tarif": 190,
+          "image": "./images/etudiant-decouverte.png",
+          "description": "Ce Pass permet la participation, pour une danse, à tous les cours donnés par SalsaDeRue dans tout le secteur Bassens (de votre niveau)",
+          "studentTarif": 170
+        }
+      ],
+      "instagramLink": "https://www.instagram.com/salsaderue/",
+      "facebookLink": "https://www.facebook.com/assosalsaderue",
+      "email": "email.bordeaux@hotmail.com"
+    }
+  ],
+  "partenaires": [
+    {
+      "partenaireName": "E.Leclerc Pont L'Abbé",
+      "partenaireDescription": "Le E.Leclerc de Pont-l'Abbé vous propose un large choix de produits de qualité à prix Leclerc. Profitez de promotions régulières et d'une expérience shopping conviviale. Découvrez nos offres en ligne et en magasin !",
+      "partenairePhoto": "/images/ELeclerc Pont Labbe.jpg",
+      "partenaireUrl": "https://leclerc-pont-labbe.fr/"
+    },
+    {
+      "partenaireName": "L'Orange Bleue Brest",
+      "partenaireDescription": "Bienvenue à L'Orange Bleue de Brest, votre salle de sport dynamique et accessible à tous ! Profitez d’un large choix d’équipements modernes, de cours collectifs stimulants et d’un encadrement personnalisé pour atteindre vos objectifs de remise en forme. Dans une ambiance conviviale, laissez-vous motiver par notre équipe passionnée. Rejoignez-nous et vivez une expérience fitness unique !",
+      "partenairePhoto": "/images/orange bleue brest.jpg",
+      "partenaireUrl": "https://www.lorangebleue.fr/clubs/brest-centre/"
+    },
+    {
+      "partenaireName": "Intermarché Briec",
+      "partenaireDescription": "L'Intermarché de Briec vous accueille dans un cadre chaleureux avec un large choix de produits du quotidien. Profitez de nos offres locales, de services pratiques et d'un véritable accompagnement pour rendre vos courses plus agréables. Faites un tour en magasin pour découvrir nos nouveautés et promotions exclusives !",
+      "partenairePhoto": "/images/Intermarche Briec.png",
+      "partenaireUrl": "https://www.intermarche.com/magasin"
+    },
+    {
+      "partenaireName": "L'Appart Fitness Plonéour-lanvern",
+      "partenaireDescription": "Découvrez l'Appart Fitness de Plonéour-lanvern, un espace moderne et convivial dédié à votre bien-être. Profitez d'équipements de pointe, de cours variés et d'une ambiance motivante pour atteindre vos objectifs.",
+      "partenairePhoto": "/images/appart fitness.jpg",
+      "partenaireUrl": "https://clubs.lappartfitness.com/57-l-appart-fitness-ploneour-lanvern"
+    },
+    {
+      "partenaireName": "La Casa Negra",
+      "partenaireDescription": "Location de salle à Langolen",
+      "partenairePhoto": "/ExpandingCollectionForContact/images/neo.png",
+      "partenaireUrl": ""
+    },
+    {
+      "partenaireName": "L'Orange Bleue Quimper Nord",
+      "partenaireDescription": "Bienvenue à L'Orange Bleue de Quimper Nord, votre salle de sport dynamique et accessible à tous ! Profitez d’un large choix d’équipements modernes, de cours collectifs stimulants et d’un encadrement personnalisé pour atteindre vos objectifs de remise en forme. Dans une ambiance conviviale, laissez-vous motiver par notre équipe passionnée. Rejoignez-nous et vivez une expérience fitness unique !",
+      "partenairePhoto": "/images/orange bleue quimper.jpg",
+      "partenaireUrl": "https://www.lorangebleue.fr/clubs/quimper-nord/"
+    }
+  ]
+}
