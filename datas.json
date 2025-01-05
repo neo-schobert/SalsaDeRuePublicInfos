@@ -165,181 +165,179 @@
             }
           ]
         },
-        [
-          {
-            "name": "Pont L'abbé",
-            "image": "./images/pont-l-abbe.jpg",
-            "danses": [
-              {
-                "name": "Salsa Cubaine",
-                "infos": {
-                  "title": "Cours de Salsa Cubaine",
-                  "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
-                  "items": [
-                    "10h de Cours par semaine",
-                    "3 niveaux: débutants, intermédiaires et avancées",
-                    "Rattrapage des Absences Possible",
-                    "Essai Gratuit",
-                    "Disponible sur Brest, Briec, Quimper et Pont l'Abbé"
-                  ],
-                  "image": "/images/exemple.webp"
-                },
-                "cours": [
-                  {
-                    "niveau": 1,
-                    "horaire": {
-                      "debutHeure": 19,
-                      "debutMinutes": 30,
-                      "finHeure": 20,
-                      "finMinutes": 30
-                    },
-                    "jour": "Mercredi",
-                    "adresse": "L'Appart Fitness, Lieu-dit Kerganet, Plonéour-Lanvern",
-                    "adresseUrl": "https://www.google.fr/maps/place/L'Appart+Fitness+-+salle+de+sport+Plon%C3%A9our-Lanvern/@47.8703474,-4.242096,19z/data=!4m10!1m2!2m1!1sappart+fitness!3m6!1s0x48172e765a6b9c4f:0xe76b5e75c2807e38!8m2!3d47.8701718!4d-4.2410736!15sCg5hcHBhcnQgZml0bmVzcyIDiAEBWhAiDmFwcGFydCBmaXRuZXNzkgELc3BvcnRzX2NsdWLgAQA!16s%2Fg%2F11cs4yh8k8?entry=ttu",
-                    "reprise": "2024-09-16",
-                    "professeur": {
-                      "professeurName": "Laurent",
-                      "professeurPhoto": "./images/profs/laurent.png",
-                      "professeurPhone": "06 73 67 63 37",
-                      "professeurDescription": ""
-                    }
+        {
+          "name": "Pont L'abbé",
+          "image": "./images/pont-l-abbe.jpg",
+          "danses": [
+            {
+              "name": "Salsa Cubaine",
+              "infos": {
+                "title": "Cours de Salsa Cubaine",
+                "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
+                "items": [
+                  "10h de Cours par semaine",
+                  "3 niveaux: débutants, intermédiaires et avancées",
+                  "Rattrapage des Absences Possible",
+                  "Essai Gratuit",
+                  "Disponible sur Brest, Briec, Quimper et Pont l'Abbé"
+                ],
+                "image": "/images/exemple.webp"
+              },
+              "cours": [
+                {
+                  "niveau": 1,
+                  "horaire": {
+                    "debutHeure": 19,
+                    "debutMinutes": 30,
+                    "finHeure": 20,
+                    "finMinutes": 30
                   },
-                  {
-                    "niveau": 2,
-                    "horaire": {
-                      "debutHeure": 20,
-                      "debutMinutes": 30,
-                      "finHeure": 21,
-                      "finMinutes": 30
-                    },
-                    "jour": "Mercredi",
-                    "adresse": "L'Appart Fitness, Lieu-dit Kerganet, Plonéour-Lanvern",
-                    "adresseUrl": "https://www.google.fr/maps/place/L'Appart+Fitness+-+salle+de+sport+Plon%C3%A9our-Lanvern/@47.8703474,-4.242096,19z/data=!4m10!1m2!2m1!1sappart+fitness!3m6!1s0x48172e765a6b9c4f:0xe76b5e75c2807e38!8m2!3d47.8701718!4d-4.2410736!15sCg5hcHBhcnQgZml0bmVzcyIDiAEBWhAiDmFwcGFydCBmaXRuZXNzkgELc3BvcnRzX2NsdWLgAQA!16s%2Fg%2F11cs4yh8k8?entry=ttu",
-                    "reprise": "2024-09-16",
-                    "professeur": {
-                      "professeurName": "Laurent",
-                      "professeurPhoto": "./images/profs/laurent.png",
-                      "professeurPhone": "06 73 67 63 37",
-                      "professeurDescription": ""
-                    }
+                  "jour": "Mercredi",
+                  "adresse": "L'Appart Fitness, Lieu-dit Kerganet, Plonéour-Lanvern",
+                  "adresseUrl": "https://www.google.fr/maps/place/L'Appart+Fitness+-+salle+de+sport+Plon%C3%A9our-Lanvern/@47.8703474,-4.242096,19z/data=!4m10!1m2!2m1!1sappart+fitness!3m6!1s0x48172e765a6b9c4f:0xe76b5e75c2807e38!8m2!3d47.8701718!4d-4.2410736!15sCg5hcHBhcnQgZml0bmVzcyIDiAEBWhAiDmFwcGFydCBmaXRuZXNzkgELc3BvcnRzX2NsdWLgAQA!16s%2Fg%2F11cs4yh8k8?entry=ttu",
+                  "reprise": "2024-09-16",
+                  "professeur": {
+                    "professeurName": "Laurent",
+                    "professeurPhoto": "./images/profs/laurent.png",
+                    "professeurPhone": "06 73 67 63 37",
+                    "professeurDescription": ""
                   }
-                ]
+                },
+                {
+                  "niveau": 2,
+                  "horaire": {
+                    "debutHeure": 20,
+                    "debutMinutes": 30,
+                    "finHeure": 21,
+                    "finMinutes": 30
+                  },
+                  "jour": "Mercredi",
+                  "adresse": "L'Appart Fitness, Lieu-dit Kerganet, Plonéour-Lanvern",
+                  "adresseUrl": "https://www.google.fr/maps/place/L'Appart+Fitness+-+salle+de+sport+Plon%C3%A9our-Lanvern/@47.8703474,-4.242096,19z/data=!4m10!1m2!2m1!1sappart+fitness!3m6!1s0x48172e765a6b9c4f:0xe76b5e75c2807e38!8m2!3d47.8701718!4d-4.2410736!15sCg5hcHBhcnQgZml0bmVzcyIDiAEBWhAiDmFwcGFydCBmaXRuZXNzkgELc3BvcnRzX2NsdWLgAQA!16s%2Fg%2F11cs4yh8k8?entry=ttu",
+                  "reprise": "2024-09-16",
+                  "professeur": {
+                    "professeurName": "Laurent",
+                    "professeurPhoto": "./images/profs/laurent.png",
+                    "professeurPhone": "06 73 67 63 37",
+                    "professeurDescription": ""
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Bachata",
+              "infos": {
+                "title": "Cours de Bachata",
+                "description": "La bachata moderne, originaire de République dominicaine, est une danse de couple aux mouvements fluides et sensuels 💃. Elle combine des éléments traditionnels avec des influences contemporaines 🎶, mettant l'accent sur la connexion entre les partenaires 👥.",
+                "items": [
+                  "2h de Cours par semaine",
+                  "Rattrapage des Absences Possible",
+                  "Essai Gratuit",
+                  "Disponible sur Pont l'Abbé, Briec"
+                ],
+                "image": "/images/exemple.webp"
               },
-              {
-                "name": "Bachata",
-                "infos": {
-                  "title": "Cours de Bachata",
-                  "description": "La bachata moderne, originaire de République dominicaine, est une danse de couple aux mouvements fluides et sensuels 💃. Elle combine des éléments traditionnels avec des influences contemporaines 🎶, mettant l'accent sur la connexion entre les partenaires 👥.",
-                  "items": [
-                    "2h de Cours par semaine",
-                    "Rattrapage des Absences Possible",
-                    "Essai Gratuit",
-                    "Disponible sur Pont l'Abbé, Briec"
-                  ],
-                  "image": "/images/exemple.webp"
-                },
-                "cours": [
-                  {
-                    "niveau": 1,
-                    "horaire": {
-                      "debutHeure": 20,
-                      "debutMinutes": 15,
-                      "finHeure": 21,
-                      "finMinutes": 15
-                    },
-                    "jour": "Lundi",
-                    "adresse": "L'Appart Fitness, Lieu-dit Kerganet, Plonéour-Lanvern",
-                    "adresseUrl": "https://www.google.fr/maps/place/L'Appart+Fitness+-+salle+de+sport+Plon%C3%A9our-Lanvern/@47.8703474,-4.242096,19z/data=!4m10!1m2!2m1!1sappart+fitness!3m6!1s0x48172e765a6b9c4f:0xe76b5e75c2807e38!8m2!3d47.8701718!4d-4.2410736!15sCg5hcHBhcnQgZml0bmVzcyIDiAEBWhAiDmFwcGFydCBmaXRuZXNzkgELc3BvcnRzX2NsdWLgAQA!16s%2Fg%2F11cs4yh8k8?entry=ttu",
-                    "reprise": "2024-09-16",
-                    "professeur": {
-                      "professeurName": "Laurent",
-                      "professeurPhoto": "./images/profs/laurent.png",
-                      "professeurPhone": "06 73 67 63 37",
-                      "professeurDescription": ""
-                    }
+              "cours": [
+                {
+                  "niveau": 1,
+                  "horaire": {
+                    "debutHeure": 20,
+                    "debutMinutes": 15,
+                    "finHeure": 21,
+                    "finMinutes": 15
+                  },
+                  "jour": "Lundi",
+                  "adresse": "L'Appart Fitness, Lieu-dit Kerganet, Plonéour-Lanvern",
+                  "adresseUrl": "https://www.google.fr/maps/place/L'Appart+Fitness+-+salle+de+sport+Plon%C3%A9our-Lanvern/@47.8703474,-4.242096,19z/data=!4m10!1m2!2m1!1sappart+fitness!3m6!1s0x48172e765a6b9c4f:0xe76b5e75c2807e38!8m2!3d47.8701718!4d-4.2410736!15sCg5hcHBhcnQgZml0bmVzcyIDiAEBWhAiDmFwcGFydCBmaXRuZXNzkgELc3BvcnRzX2NsdWLgAQA!16s%2Fg%2F11cs4yh8k8?entry=ttu",
+                  "reprise": "2024-09-16",
+                  "professeur": {
+                    "professeurName": "Laurent",
+                    "professeurPhoto": "./images/profs/laurent.png",
+                    "professeurPhone": "06 73 67 63 37",
+                    "professeurDescription": ""
                   }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Briec",
-            "image": "./images/briec.jpg",
-            "danses": [
-              {
-                "name": "Salsa Cubaine",
-                "infos": {
-                  "title": "Cours de Salsa Cubaine",
-                  "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
-                  "items": [
-                    "10h de Cours par semaine",
-                    "3 niveaux: débutants, intermédiaires et avancées",
-                    "Rattrapage des Absences Possible",
-                    "Essai Gratuit",
-                    "Disponible sur Brest, Briec, Quimper et Pont l'Abbé"
-                  ],
-                  "image": "/images/exemple.webp"
-                },
-                "cours": [
-                  {
-                    "niveau": 1,
-                    "horaire": {
-                      "debutHeure": 19,
-                      "debutMinutes": 0,
-                      "finHeure": 20,
-                      "finMinutes": 0
-                    },
-                    "jour": "Jeudi",
-                    "adresse": "L'Appart Fitness, Lieu-dit Kerganet, Plonéour-Lanvern",
-                    "adresseUrl": "https://www.google.fr/maps/place/L'Appart+Fitness+-+salle+de+sport+Plon%C3%A9our-Lanvern/@47.8703474,-4.242096,19z/data=!4m10!1m2!2m1!1sappart+fitness!3m6!1s0x48172e765a6b9c4f:0xe76b5e75c2807e38!8m2!3d47.8701718!4d-4.2410736!15sCg5hcHBhcnQgZml0bmVzcyIDiAEBWhAiDmFwcGFydCBmaXRuZXNzkgELc3BvcnRzX2NsdWLgAQA!16s%2Fg%2F11cs4yh8k8?entry=ttu",
-                    "reprise": "2024-09-16",
-                    "professeur": {
-                      "professeurName": "Laurent",
-                      "professeurPhoto": "./images/profs/laurent.png",
-                      "professeurPhone": "06 73 67 63 37",
-                      "professeurDescription": ""
-                    }
-                  }
-                ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Briec",
+          "image": "./images/briec.jpg",
+          "danses": [
+            {
+              "name": "Salsa Cubaine",
+              "infos": {
+                "title": "Cours de Salsa Cubaine",
+                "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
+                "items": [
+                  "10h de Cours par semaine",
+                  "3 niveaux: débutants, intermédiaires et avancées",
+                  "Rattrapage des Absences Possible",
+                  "Essai Gratuit",
+                  "Disponible sur Brest, Briec, Quimper et Pont l'Abbé"
+                ],
+                "image": "/images/exemple.webp"
               },
-              {
-                "name": "Bachata",
-                "infos": {
-                  "title": "Cours de Bachata",
-                  "description": "La bachata moderne, originaire de République dominicaine, est une danse de couple aux mouvements fluides et sensuels 💃. Elle combine des éléments traditionnels avec des influences contemporaines 🎶, mettant l'accent sur la connexion entre les partenaires 👥.",
-                  "items": [
-                    "2h de Cours par semaine",
-                    "Rattrapage des Absences Possible",
-                    "Essai Gratuit",
-                    "Disponible sur Pont l'Abbé, Briec"
-                  ],
-                  "image": "/images/exemple.webp"
-                },
-                "cours": [
-                  {
-                    "niveau": 1,
-                    "horaire": {
-                      "debutHeure": 20,
-                      "debutMinutes": 0,
-                      "finHeure": 21,
-                      "finMinutes": 0
-                    },
-                    "jour": "Mardi",
-                    "adresse": "La Casa Negra, Route de Quimper, Langolen",
-                    "adresseUrl": "https://www.google.fr/maps/place/CASANEGRA/@48.0652318,-3.9297828,14.75z/data=!4m6!3m5!1s0x481127094b060eef:0xe472a4c263ec01fb!8m2!3d48.0649598!4d-3.9288175!16s%2Fg%2F11y56_y3k8?entry=ttu",
-                    "reprise": "2024-09-16",
-                    "professeur": {
-                      "professeurName": "Laurent",
-                      "professeurPhoto": "./images/profs/laurent.png",
-                      "professeurPhone": "06 73 67 63 37",
-                      "professeurDescription": ""
-                    }
+              "cours": [
+                {
+                  "niveau": 1,
+                  "horaire": {
+                    "debutHeure": 19,
+                    "debutMinutes": 0,
+                    "finHeure": 20,
+                    "finMinutes": 0
+                  },
+                  "jour": "Jeudi",
+                  "adresse": "L'Appart Fitness, Lieu-dit Kerganet, Plonéour-Lanvern",
+                  "adresseUrl": "https://www.google.fr/maps/place/L'Appart+Fitness+-+salle+de+sport+Plon%C3%A9our-Lanvern/@47.8703474,-4.242096,19z/data=!4m10!1m2!2m1!1sappart+fitness!3m6!1s0x48172e765a6b9c4f:0xe76b5e75c2807e38!8m2!3d47.8701718!4d-4.2410736!15sCg5hcHBhcnQgZml0bmVzcyIDiAEBWhAiDmFwcGFydCBmaXRuZXNzkgELc3BvcnRzX2NsdWLgAQA!16s%2Fg%2F11cs4yh8k8?entry=ttu",
+                  "reprise": "2024-09-16",
+                  "professeur": {
+                    "professeurName": "Laurent",
+                    "professeurPhoto": "./images/profs/laurent.png",
+                    "professeurPhone": "06 73 67 63 37",
+                    "professeurDescription": ""
                   }
-                ]
-              }
-            ]
-          }
-        ]
+                }
+              ]
+            },
+            {
+              "name": "Bachata",
+              "infos": {
+                "title": "Cours de Bachata",
+                "description": "La bachata moderne, originaire de République dominicaine, est une danse de couple aux mouvements fluides et sensuels 💃. Elle combine des éléments traditionnels avec des influences contemporaines 🎶, mettant l'accent sur la connexion entre les partenaires 👥.",
+                "items": [
+                  "2h de Cours par semaine",
+                  "Rattrapage des Absences Possible",
+                  "Essai Gratuit",
+                  "Disponible sur Pont l'Abbé, Briec"
+                ],
+                "image": "/images/exemple.webp"
+              },
+              "cours": [
+                {
+                  "niveau": 1,
+                  "horaire": {
+                    "debutHeure": 20,
+                    "debutMinutes": 0,
+                    "finHeure": 21,
+                    "finMinutes": 0
+                  },
+                  "jour": "Mardi",
+                  "adresse": "La Casa Negra, Route de Quimper, Langolen",
+                  "adresseUrl": "https://www.google.fr/maps/place/CASANEGRA/@48.0652318,-3.9297828,14.75z/data=!4m6!3m5!1s0x481127094b060eef:0xe472a4c263ec01fb!8m2!3d48.0649598!4d-3.9288175!16s%2Fg%2F11y56_y3k8?entry=ttu",
+                  "reprise": "2024-09-16",
+                  "professeur": {
+                    "professeurName": "Laurent",
+                    "professeurPhoto": "./images/profs/laurent.png",
+                    "professeurPhone": "06 73 67 63 37",
+                    "professeurDescription": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
       ],
       "tarifs": [
         {
