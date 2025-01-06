@@ -372,58 +372,60 @@
         {
           "name": "Bassens",
           "image": "./images/bordeaux.png",
-          "danses": {
-            "name": "Salsa Cubaine",
-            "infos": {
-              "title": "Cours de Salsa Cubaine",
-              "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
-              "items": [
-                "2 niveaux: débutants, intermédiaires",
-                "Essai Gratuit"
-              ],
-              "image": "/images/exemple.webp"
-            },
-            "cours": [
-              {
-                "niveau": 1,
-                "horaire": {
-                  "debutHeure": 20,
-                  "debutMinutes": 0,
-                  "finHeure": 21,
-                  "finMinutes": 0
-                },
-                "jour": "Mercredi",
-                "adresse": "Rue Charles Péguy, Bassens",
-                "adresseUrl": "https://www.google.fr/maps/place/Rue+Charles+P%C3%A9guy,+33530+Bassens/@44.9129282,-0.5097143,18.25z/data=!4m6!3m5!1s0xd552ebce46d7531:0x13b17ccb70c744f1!8m2!3d44.9133966!4d-0.5095801!16s%2Fg%2F1tgh499b?entry=ttu",
-                "reprise": "2024-08-11",
-                "professeur": {
-                  "professeurName": "Sandrine",
-                  "professeurPhoto": "./images/profs/sandrine.jpg",
-                  "professeurPhone": "06 24 14 77 61",
-                  "professeurDescription": ""
-                }
+          "danses": [
+            {
+              "name": "Salsa Cubaine",
+              "infos": {
+                "title": "Cours de Salsa Cubaine",
+                "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
+                "items": [
+                  "2 niveaux: débutants, intermédiaires",
+                  "Essai Gratuit"
+                ],
+                "image": "/images/exemple.webp"
               },
-              {
-                "niveau": 2,
-                "horaire": {
-                  "debutHeure": 19,
-                  "debutMinutes": 0,
-                  "finHeure": 20,
-                  "finMinutes": 0
+              "cours": [
+                {
+                  "niveau": 1,
+                  "horaire": {
+                    "debutHeure": 20,
+                    "debutMinutes": 0,
+                    "finHeure": 21,
+                    "finMinutes": 0
+                  },
+                  "jour": "Mercredi",
+                  "adresse": "Rue Charles Péguy, Bassens",
+                  "adresseUrl": "https://www.google.fr/maps/place/Rue+Charles+P%C3%A9guy,+33530+Bassens/@44.9129282,-0.5097143,18.25z/data=!4m6!3m5!1s0xd552ebce46d7531:0x13b17ccb70c744f1!8m2!3d44.9133966!4d-0.5095801!16s%2Fg%2F1tgh499b?entry=ttu",
+                  "reprise": "2024-08-11",
+                  "professeur": {
+                    "professeurName": "Sandrine",
+                    "professeurPhoto": "./images/profs/sandrine.jpg",
+                    "professeurPhone": "06 24 14 77 61",
+                    "professeurDescription": ""
+                  }
                 },
-                "jour": "Mercredi",
-                "adresse": "Rue Charles Péguy, Bassens",
-                "adresseUrl": "https://www.google.fr/maps/place/Rue+Charles+P%C3%A9guy,+33530+Bassens/@44.9129282,-0.5097143,18.25z/data=!4m6!3m5!1s0xd552ebce46d7531:0x13b17ccb70c744f1!8m2!3d44.9133966!4d-0.5095801!16s%2Fg%2F1tgh499b?entry=ttu",
-                "reprise": "2024-08-11",
-                "professeur": {
-                  "professeurName": "Sandrine",
-                  "professeurPhoto": "./images/profs/sandrine.jpg",
-                  "professeurPhone": "06 24 14 77 61",
-                  "professeurDescription": ""
+                {
+                  "niveau": 2,
+                  "horaire": {
+                    "debutHeure": 19,
+                    "debutMinutes": 0,
+                    "finHeure": 20,
+                    "finMinutes": 0
+                  },
+                  "jour": "Mercredi",
+                  "adresse": "Rue Charles Péguy, Bassens",
+                  "adresseUrl": "https://www.google.fr/maps/place/Rue+Charles+P%C3%A9guy,+33530+Bassens/@44.9129282,-0.5097143,18.25z/data=!4m6!3m5!1s0xd552ebce46d7531:0x13b17ccb70c744f1!8m2!3d44.9133966!4d-0.5095801!16s%2Fg%2F1tgh499b?entry=ttu",
+                  "reprise": "2024-08-11",
+                  "professeur": {
+                    "professeurName": "Sandrine",
+                    "professeurPhoto": "./images/profs/sandrine.jpg",
+                    "professeurPhone": "06 24 14 77 61",
+                    "professeurDescription": ""
+                  }
                 }
-              }
-            ]
-          }
+              ]
+            }
+          ]
         }
       ],
       "tarifs": [
