@@ -225,6 +225,25 @@
                     "professeurPhone": "06 73 67 63 37",
                     "professeurDescription": ""
                   }
+                },
+                {
+                  "niveau": 3,
+                  "horaire": {
+                    "debutHeure": 21,
+                    "debutMinutes": 15,
+                    "finHeure": 22,
+                    "finMinutes": 15
+                  },
+                  "jour": "Lundi",
+                  "adresse": "L'Appart Fitness, Lieu-dit Kerganet, Plonéour-Lanvern",
+                  "adresseUrl": "https://www.google.fr/maps/place/L'Appart+Fitness+-+salle+de+sport+Plon%C3%A9our-Lanvern/@47.8703474,-4.242096,19z/data=!4m10!1m2!2m1!1sappart+fitness!3m6!1s0x48172e765a6b9c4f:0xe76b5e75c2807e38!8m2!3d47.8701718!4d-4.2410736!15sCg5hcHBhcnQgZml0bmVzcyIDiAEBWhAiDmFwcGFydCBmaXRuZXNzkgELc3BvcnRzX2NsdWLgAQA!16s%2Fg%2F11cs4yh8k8?entry=ttu",
+                  "reprise": "2024-09-16",
+                  "professeur": {
+                    "professeurName": "Laurent",
+                    "professeurPhoto": "./images/profs/laurent.png",
+                    "professeurPhone": "06 73 67 63 37",
+                    "professeurDescription": ""
+                  }
                 }
               ]
             },
