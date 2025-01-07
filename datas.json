@@ -15,6 +15,7 @@
           "danses": [
             {
               "name": "Salsa Cubaine",
+              "image": "./images/salsa cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -70,6 +71,7 @@
             },
             {
               "name": "Salsa Cubaine Style",
+              "image": "./images/salsa cubaine style.jpg",
               "infos": {
                 "title": "Cours Style de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse riche en style et en émotions, mêlant rythmes afro-cubains et expression personnelle. Ouverts à tous, nos cours vous permettent de progresser, débutant ou avancé, et de révéler votre potentiel avec SalsaDeRue 🔥.",
@@ -110,6 +112,7 @@
           "danses": [
             {
               "name": "Salsa Cubaine",
+              "image": "./images/salsa cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -171,6 +174,7 @@
           "danses": [
             {
               "name": "Salsa Cubaine",
+              "image": "./images/salsa-cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -226,6 +230,7 @@
             },
             {
               "name": "Bachata",
+              "image": "./images/bachata.jpg",
               "infos": {
                 "title": "Cours de Bachata",
                 "description": "La bachata moderne, originaire de République dominicaine, est une danse de couple aux mouvements fluides et sensuels 💃. Elle combine des éléments traditionnels avec des influences contemporaines 🎶, mettant l'accent sur la connexion entre les partenaires 👥.",
@@ -267,6 +272,7 @@
           "danses": [
             {
               "name": "Salsa Cubaine",
+              "image": "./images/salsa cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -303,6 +309,7 @@
             },
             {
               "name": "Bachata",
+              "image": "./images/bachata.jpg",
               "infos": {
                 "title": "Cours de Bachata",
                 "description": "La bachata moderne, originaire de République dominicaine, est une danse de couple aux mouvements fluides et sensuels 💃. Elle combine des éléments traditionnels avec des influences contemporaines 🎶, mettant l'accent sur la connexion entre les partenaires 👥.",
@@ -375,6 +382,7 @@
           "danses": [
             {
               "name": "Salsa Cubaine",
+              "image": "./images/salsa-cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
