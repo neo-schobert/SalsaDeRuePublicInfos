@@ -1,0 +1,26 @@
+{
+  "name": "datas",
+  "version": "1.0.0",
+  "description": "Un repo pour stocker les json utiles au fonctionnement de l'application et du site web SalsaDeRue.",
+  "main": "group.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neo-schobert/SalsaDeRuePublicInfos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/neo-schobert/SalsaDeRuePublicInfos/issues"
+  },
+  "homepage": "https://github.com/neo-schobert/SalsaDeRuePublicInfos#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "firebase-admin": "^13.0.2",
+    "fs": "^0.0.1-security"
+  }
+}

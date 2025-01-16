@@ -1,0 +1,22 @@
+# Ignorer tout
+*
+
+# Ne pas ignorer le fichier .gitignore
+!.gitignore
+
+# Ne pas ignorer le fichier datas.json
+!datas.json
+
+# Ne pas ignorer le dossier images
+!images/
+# Inclure le contenu du dossier images
+images/**
+
+# Ne pas ignorer le fichier upload.js
+!upload.js
+
+# Ne pas ignorer le fichier package.json
+!package.json
+
+# Ne pas ignorer le fichier package-lock.json
+!package-lock.json
