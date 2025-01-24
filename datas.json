@@ -506,5 +506,14 @@
       "partenairePhoto": "/images/orange bleue quimper.jpg",
       "partenaireUrl": "https://www.lorangebleue.fr/clubs/quimper-nord/"
     }
+  ],
+  "pubValids": [
+    "website",
+    "facebook",
+    "instagram",
+    "affiches",
+    "flyers",
+    "bouche à oreille",
+    "autre"
   ]
 }
