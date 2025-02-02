@@ -42,30 +42,40 @@ const uploadToFirestore = async (data) => {
   }
 };
 
-async function createOrReplaceGroupsCollection(groups) {
-  const groupsCollection = db.collection("Groups");
+async function deleteCollectionRecursively(collectionRef) {
+  // Récupère tous les documents de la collection
+  const snapshot = await collectionRef.get();
 
-  // Vérifie si la collection existe déjà (on suppose qu'une collection vide n'existe pas encore)
-  const snapshot = await groupsCollection.get();
+  const deletePromises = [];
+  for (const doc of snapshot.docs) {
+    // Supprime récursivement toutes les sous-collections de ce document
+    const subCollections = await doc.ref.listCollections();
+    for (const subCollection of subCollections) {
+      await deleteCollectionRecursively(subCollection);
+    }
 
-  // Si elle contient des documents, on les supprime
-  if (!snapshot.empty) {
-    console.log("La collection Groups existe, suppression des documents...");
-    const deletePromises = [];
-    snapshot.forEach((doc) => {
-      deletePromises.push(doc.ref.delete());
-    });
-    await Promise.all(deletePromises);
-    console.log(
-      "Tous les documents de la collection Groups ont été supprimés."
-    );
+    // Supprime le document lui-même
+    deletePromises.push(doc.ref.delete());
   }
 
-  // Ajoute les nouveaux documents dans la collection Groups
-  console.log("Ajout des nouveaux documents dans la collection Groups...");
-  const addPromises = groups.map((group) => groupsCollection.add(group));
-  await Promise.all(addPromises);
-  console.log("Les documents ont été ajoutés avec succès.");
+  // Attendre que tous les documents de la collection soient supprimés
+  await Promise.all(deletePromises);
+}
+
+async function deleteGroupsIfExist() {
+  const groupsCollection = db.collection("Groups");
+
+  // Vérifie si la collection existe et supprime récursivement
+  const snapshot = await groupsCollection.get();
+  if (!snapshot.empty) {
+    console.log(
+      "La collection Groups existe, suppression des documents et sous-collections..."
+    );
+    await deleteCollectionRecursively(groupsCollection);
+    console.log(
+      "Tous les documents et sous-collections de la collection Groups ont été supprimés."
+    );
+  }
 }
 
 // Permet d'avoir les groupes 4
@@ -294,6 +304,7 @@ function createGroup({ groupName, groupPictureUrl, hauteur }) {
     lastMessageId: "",
     publicationsId: [],
     eventsId: [],
+    groupRequestHashedId: [],
   };
 }
 
@@ -309,15 +320,17 @@ const main = async () => {
     const groupedData = groupData(jsonData.secteurs);
 
     fs.writeFileSync("resultat.json", JSON.stringify(groupedData, null, 2));
-
+    await deleteGroupsIfExist();
     const groups = [
-      createGroup({
-        groupName: "SDR France",
-        groupPictureUrl:
-          "https://github.com/neo-schobert/SalsaDeRuePublicInfos/blob/master/images/france.png?raw=true",
-        hauteur: 0,
-      }),
+      // createGroup({
+      //   groupName: "SDR France",
+      //   groupPictureUrl:
+      //     "https://github.com/neo-schobert/SalsaDeRuePublicInfos/blob/master/images/france.png?raw=true",
+      //   hauteur: 0,
+      // }),
     ];
+
+    const groupsCollection = db.collection("Groups");
 
     if (Object.keys(groupedData.groupedByDepartment).length > 1) {
       for (const secteur of Object.values(groupedData.groupedByDepartment)) {
@@ -326,9 +339,18 @@ const main = async () => {
           "https://github.com/neo-schobert/SalsaDeRuePublicInfos/blob/master" +
           secteur[0].image.replace(/^\./, "") +
           "?raw=true";
-        groups.push(createGroup({ groupName, groupPictureUrl, hauteur: 1 }));
+        const newGroup = createGroup({
+          groupName,
+          groupPictureUrl,
+          hauteur: 1,
+        });
+        groups.push(newGroup);
+
+        groupsCollection.doc(secteur[0].departement).set(newGroup);
       }
     }
+
+    console.log("Documents départements ajoutés avec succès.");
 
     for (const secteur of Object.keys(
       groupedData.groupedByDepartementAndDance
@@ -345,10 +367,24 @@ const main = async () => {
             "https://github.com/neo-schobert/SalsaDeRuePublicInfos/blob/master" +
             dance[0].image.replace(/^\./, "") +
             "?raw=true";
-          groups.push(createGroup({ groupName, groupPictureUrl, hauteur: 2 }));
+          const newGroup = createGroup({
+            groupName,
+            groupPictureUrl,
+            hauteur: 2,
+          });
+          groups.push(newGroup);
+
+          const parDanceCollection = db
+            .collection("Groups")
+            .doc(secteur)
+            .collection("parDance");
+
+          parDanceCollection.doc(dance[0].danceName).set(newGroup);
         }
       }
     }
+
+    console.log("Documents danses ajoutés avec succès.");
 
     for (const secteur of Object.keys(
       groupedData.groupedByDepartementAndDanceAndVille
@@ -377,14 +413,29 @@ const main = async () => {
                 "https://github.com/neo-schobert/SalsaDeRuePublicInfos/blob/master" +
                 ville[0].image.replace(/^\./, "") +
                 "?raw=true";
-              groups.push(
-                createGroup({ groupName, groupPictureUrl, hauteur: 3 })
-              );
+              const newGroup = createGroup({
+                groupName,
+                groupPictureUrl,
+                hauteur: 3,
+              });
+
+              groups.push(newGroup);
+
+              const parVilleCollection = db
+                .collection("Groups")
+                .doc(secteur)
+                .collection("parDance")
+                .doc(dance)
+                .collection("parVille");
+
+              parVilleCollection.doc(ville[0].ville).set(newGroup);
             }
           }
         }
       }
     }
+
+    console.log("Documents villes ajoutés avec succès.");
 
     for (const secteur of Object.keys(
       groupedData.groupedByDepartementAndDanceAndVilleAndLevel
@@ -422,13 +473,33 @@ const main = async () => {
                 "https://github.com/neo-schobert/SalsaDeRuePublicInfos/blob/master" +
                 level[0].image.replace(/^\./, "") +
                 "?raw=true";
-              groups.push(
-                createGroup({ groupName, groupPictureUrl, hauteur: 4 })
-              );
+
+              const newGroup = createGroup({
+                groupName,
+                groupPictureUrl,
+                hauteur: 4,
+              });
+
+              groups.push(newGroup);
+
+              const parLevelCollection = db
+                .collection("Groups")
+                .doc(secteur)
+                .collection("parDance")
+                .doc(dance)
+                .collection("parVille")
+                .doc(ville)
+                .collection("parLevel");
+
+              const levelName = level[0].niveau.toString();
+
+              parLevelCollection.doc(levelName).set(newGroup);
             }
         }
       }
     }
+
+    console.log("Documents niveaux ajoutés avec succès.");
 
     for (const secteur of Object.keys(
       groupedData.groupedByDepartementAndVille
@@ -445,14 +516,24 @@ const main = async () => {
             "https://github.com/neo-schobert/SalsaDeRuePublicInfos/blob/master" +
             ville[0].image.replace(/^\./, "") +
             "?raw=true";
-          groups.push(createGroup({ groupName, groupPictureUrl, hauteur: 2 }));
+          const newGroup = createGroup({
+            groupName,
+            groupPictureUrl,
+            hauteur: 2,
+          });
+          groups.push(newGroup);
+
+          const parVilleCollection = db
+            .collection("Groups")
+            .doc(secteur)
+            .collection("parVille");
+
+          parVilleCollection.doc(ville[0].ville).set(newGroup);
         }
       }
     }
 
-    createOrReplaceGroupsCollection(groups)
-      .then(() => console.log("Opération terminée."))
-      .catch((error) => console.error("Erreur lors de l'opération :", error));
+    console.log("Documents villes 2 ajoutés avec succès.");
   } catch (error) {
     console.error("An error occurred:", error);
   }
