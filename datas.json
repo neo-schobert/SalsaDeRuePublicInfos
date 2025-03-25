@@ -12,6 +12,7 @@
         {
           "name": "Brest",
           "image": "./images/brest.jpg",
+          "colors": ['#ffdbb7','#ffb56a','#ffdbb7'],
           "danses": [
             {
               "name": "Salsa Cubaine",
@@ -109,6 +110,7 @@
         {
           "name": "Quimper",
           "image": "./images/quimper.jpg",
+          "colors": ['rgba(173, 216, 230, 1)','rgba(70, 130, 180, 1)','rgba(100, 149, 237, 1)'],
           "danses": [
             {
               "name": "Salsa Cubaine",
@@ -171,6 +173,7 @@
         {
           "name": "Pont L'abbé",
           "image": "./images/pont-l-abbe.jpg",
+          "colors": ['#ffb56a','#ffdbb7','#ffb56a'],
           "danses": [
             {
               "name": "Salsa Cubaine",
@@ -288,6 +291,7 @@
         {
           "name": "Briec",
           "image": "./images/briec.jpg",
+          "colors": ['#ffb56a','#ffdbb7','#ffb56a'],
           "danses": [
             {
               "name": "Salsa Cubaine",
@@ -398,6 +402,7 @@
         {
           "name": "Bassens",
           "image": "./images/bordeaux.png",
+          "colors": ['#ffb56a','#ffdbb7','#ffb56a'],
           "danses": [
             {
               "name": "Salsa Cubaine",
