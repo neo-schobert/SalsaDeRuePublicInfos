@@ -140,8 +140,8 @@
                   "adresseUrl": "https://www.google.fr/maps/place/Gym+In+Fitness/@47.9861065,-4.1130417,18.5z/data=!4m6!3m5!1s0x4810d5a22e6800a7:0x198937747eaf7731!8m2!3d47.9863808!4d-4.1125237!16s%2Fg%2F1vxvh7y0?hl=fr&entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D",
                   "reprise": "2025-09-15",
                   "professeur": {
-                    "professeurName": "Sandie",
-                    "professeurPhoto": "./images/profs/sandie.png",
+                    "professeurName": "Laurent",
+                    "professeurPhoto": "./images/profs/laurent.png",
                     "professeurPhone": "07 63 71 73 68",
                     "professeurDescription": ""
                   }
