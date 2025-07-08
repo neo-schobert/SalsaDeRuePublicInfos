@@ -404,23 +404,25 @@
         {
           "name": "Une Danse",
           "tarif": 210,
+          "tarif2Niveaux": 290,
           "image": "./images/etudiant-decouverte.png",
           "description": "Ce Pass permet la participation, pour une danse, à tous les cours donnés par SalsaDeRue dans tout le secteur Finistère",
-          "studentTarif": 180
+          "studentTarif": 180,
+          "studentTarif2Niveaux": 250
         },
         {
           "name": "Deux Danses",
-          "tarif": 290,
+          "tarif": 350,
           "image": "./images/etudiant-full-pass.png",
           "description": "Ce Pass permet la participation à toutes les danses et cours donnés par SalsaDeRue dans tout le secteur Finistère",
-          "studentTarif": 260
+          "studentTarif": 300
         },
         {
           "name": "Trois Danses",
-          "tarif": 350,
+          "tarif": 395,
           "image": "./images/decouverte.png",
           "description": "Ce Pass permet la participation, pour toutes les danse, à tous les cours donnés par SalsaDeRue dans tout le secteur Finistère",
-          "studentTarif": 300
+          "studentTarif": 340
         }
       ]
     },
@@ -513,7 +515,7 @@
     },
     {
       "partenaireName": "L'Orange Bleue Brest",
-      "partenaireDescription": "Bienvenue à L'Orange Bleue de Brest, votre salle de sport dynamique et accessible à tous ! Profitez d'un large choix d'équipements modernes, de cours collectifs stimulants et d'un encadrement personnalisé pour atteindre vos objectifs de remise en forme. Dans une ambiance conviviale, laissez-vous motiver par notre équipe passionnée. Rejoignez-nous et vivez une expérience fitness unique !",
+      "partenaireDescription": "Bienvenue à L'Orange Bleue de Brest, votre salle de sport dynamique et accessible à tous ! Profitez d'un la e choix d'équipements modernes, de cours collectifs stimulants et d'un encadrement personnalisé pour atteindre vos objectifs de remise en forme. Dans une ambiance conviviale, laissez-vous motiver par notre équipe passionnée. Rejoignez-nous et vivez une expérience fitness unique !",
       "partenairePhoto": "/images/orange bleue brest.jpg",
       "partenaireUrl": "https://www.lorangebleue.fr/clubs/brest-centre/"
     },
