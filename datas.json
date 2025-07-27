@@ -51,10 +51,10 @@
                 {
                   "niveau": 2,
                   "horaire": {
-                    "debutHeure": 21,
-                    "debutMinutes": 0,
-                    "finHeure": 22,
-                    "finMinutes": 0
+                    "debutHeure": 20,
+                    "debutMinutes": 45,
+                    "finHeure": 21,
+                    "finMinutes": 45
                   },
                   "jour": "Mardi",
                   "adresse": "L'Orange Bleue, 44 Rue D'Aiguillon, Brest",
@@ -90,6 +90,43 @@
                     "debutHeure": 20,
                     "debutMinutes": 30,
                     "finHeure": 21,
+                    "finMinutes": 30
+                  },
+                  "jour": "Mercredi",
+                  "adresse": "L'Orange Bleue, 44 Rue D'Aiguillon, Brest",
+                  "adresseUrl": "https://www.google.fr/maps/place/l'Orange+bleue/@48.3591515,-4.7219013,11z/data=!4m10!1m2!2m1!1sl'orange+bleue!3m6!1s0x4816b95751bbf3a5:0xb20c0ecee9c51be8!8m2!3d48.3865742!4d-4.4905125!15sCg5sJ29yYW5nZSBibGV1ZSIDiAEBWhAiDmwgb3JhbmdlIGJsZXVlkgEOZml0bmVzc19jZW50ZXLgAQA!16s%2Fg%2F11hbqlj3mz?entry=ttu",
+                  "reprise": "2025-09-15",
+                  "professeur": {
+                    "professeurName": "Néo",
+                    "professeurPhoto": "./images/profs/neo.png",
+                    "professeurPhone": "07 82 15 78 06",
+                    "professeurDescription": ""
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Reggeaton - New Style",
+              "image": "./images/reggeaton_newstyle.jpg",
+              "infos": {
+                "title": "Cours Reggeaton - New Style",
+                "description": "Le reggaeton - new style 🔥, c'est une explosion d'énergie et d'attitude, mêlant rythmes urbains, influences latines et danse contemporaine. Sensualité, puissance et style se rencontrent pour une expression libre et affirmée. Nos cours sont ouverts à tous, débutants comme avancés, pour te faire vibrer, t'affirmer et repousser tes limites avec SalsaDeRue 💥.",
+                "items": [
+                  "Un niveau unique pour tous, adapté aux débutants comme aux avancés",
+                  "Essai Gratuit",
+                  "2h de Cours par semaine",
+                  "Rattrapage des Absences Possible",
+                  "Disponible à Quimper, Brest !"
+                ],
+                "image": "/images/exemple.webp"
+              },
+              "cours": [
+                {
+                  "niveau": 1,
+                  "horaire": {
+                    "debutHeure": 21,
+                    "debutMinutes": 30,
+                    "finHeure": 22,
                     "finMinutes": 30
                   },
                   "jour": "Mercredi",
@@ -151,6 +188,12 @@
             {
               "name": "Salsa Cubaine Style",
               "image": "./images/salsa cubaine style.jpg",
+              "required": [
+                {
+                  "danse": "Salsa Cubaine",
+                  "level": 2
+                }
+              ],
               "infos": {
                 "title": "Cours Style de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse riche en style et en émotions, mêlant rythmes afro-cubains et expression personnelle. Ouverts à tous, nos cours vous permettent de progresser, débutant ou avancé, et de révéler votre potentiel avec SalsaDeRue 🔥.",
