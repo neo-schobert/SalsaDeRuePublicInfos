@@ -539,9 +539,11 @@
         {
           "name": "Une Danse",
           "tarif": 190,
+          "tarif2Niveaux": 250,
           "image": "./images/etudiant-decouverte.png",
           "description": "Ce Pass permet la participation, pour une danse, à tous les cours donnés par SalsaDeRue dans tout le secteur Bassens (de votre niveau)",
-          "studentTarif": 170
+          "studentTarif": 170,
+          "studentTarif2Niveaux": 230
         }
       ],
       "instagramLink": "https://www.instagram.com/salsaderue/",
