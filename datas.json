@@ -3,7 +3,7 @@
     {
       "name": "Finistère",
       "title": "Secteur Finistère",
-      "imageDepartement": "/images/finistere.jpg",
+      "imageDepartement": "./images/finistere.jpg",
       "iconDepartement": "/images/iconBretagne.png",
       "instagramLink": "https://www.instagram.com/salsaderue_finistere/",
       "facebookLink": "https://www.facebook.com/AssociationSalsaderue",
@@ -11,11 +11,11 @@
       "villes": [
         {
           "name": "Brest",
-          "image": "/images/brest.jpg",
+          "image": "./images/brest.jpg",
           "danses": [
             {
               "name": "Salsa Cubaine",
-              "image": "/images/salsa cubaine.jpg",
+              "image": "./images/salsa cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -71,7 +71,7 @@
             },
             {
               "name": "Bachata",
-              "image": "/images/bachata.jpg",
+              "image": "./images/bachata.jpg",
               "infos": {
                 "title": "Cours de Bachata",
                 "description": "La bachata moderne et urbaine, originaire de République dominicaine, est une danse de couple aux mouvements fluides et sensuels 💃. Elle combine des éléments traditionnels avec des influences contemporaines 🎶, mettant l'accent sur la connexion entre les partenaires 👥.",
@@ -107,7 +107,7 @@
             },
             {
               "name": "Reggaeton - New Style",
-              "image": "/images/reggaeton_newstyle.jpg",
+              "image": "./images/reggaeton_newstyle.jpg",
               "infos": {
                 "title": "Cours Reggaeton - New Style",
                 "description": "Le reggaeton - new style 🔥, c'est une explosion d'énergie et d'attitude, mêlant rythmes urbains, influences latines et danse contemporaine. Sensualité, puissance et style se rencontrent pour une expression libre et affirmée. Nos cours sont ouverts à tous, débutants comme avancés, pour te faire vibrer, t'affirmer et repousser tes limites avec SalsaDeRue 💥.",
@@ -146,11 +146,11 @@
         },
         {
           "name": "Quimper",
-          "image": "/images/quimper.jpg",
+          "image": "./images/quimper.jpg",
           "danses": [
             {
               "name": "Salsa Cubaine",
-              "image": "/images/salsa cubaine.jpg",
+              "image": "./images/salsa cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -187,7 +187,7 @@
             },
             {
               "name": "Salsa Cubaine Style",
-              "image": "/images/salsa cubaine style.jpg",
+              "image": "./images/salsa cubaine style.jpg",
               "required": [
                 {
                   "danse": "Salsa Cubaine",
@@ -228,7 +228,7 @@
             },
             {
               "name": "Reggaeton - New Style",
-              "image": "/images/reggaeton_newstyle.jpg",
+              "image": "./images/reggaeton_newstyle.jpg",
               "infos": {
                 "title": "Cours Reggaeton - New Style",
                 "description": "Le reggaeton - new style 🔥, c'est une explosion d'énergie et d'attitude, mêlant rythmes urbains, influences latines et danse contemporaine. Sensualité, puissance et style se rencontrent pour une expression libre et affirmée. Nos cours sont ouverts à tous, débutants comme avancés, pour te faire vibrer, t'affirmer et repousser tes limites avec SalsaDeRue 💥.",
@@ -265,11 +265,11 @@
         },
         {
           "name": "Pont L'abbé",
-          "image": "/images/pont-l-abbe.jpg",
+          "image": "./images/pont-l-abbe.jpg",
           "danses": [
             {
               "name": "Salsa Cubaine",
-              "image": "/images/salsa-cubaine.jpg",
+              "image": "./images/salsa-cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -344,7 +344,7 @@
             },
             {
               "name": "Bachata",
-              "image": "/images/bachata.jpg",
+              "image": "./images/bachata.jpg",
               "infos": {
                 "title": "Cours de Bachata",
                 "description": "La bachata moderne, originaire de République dominicaine, est une danse de couple aux mouvements fluides et sensuels 💃. Elle combine des éléments traditionnels avec des influences contemporaines 🎶, mettant l'accent sur la connexion entre les partenaires 👥.",
@@ -382,11 +382,11 @@
         },
         {
           "name": "Briec",
-          "image": "/images/briec.jpg",
+          "image": "./images/briec.jpg",
           "danses": [
             {
               "name": "Salsa Cubaine",
-              "image": "/images/salsa cubaine.jpg",
+              "image": "./images/salsa cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -448,7 +448,7 @@
           "name": "Une Danse",
           "tarif": 210,
           "tarif2Niveaux": 290,
-          "image": "/images/etudiant-decouverte.png",
+          "image": "./images/etudiant-decouverte.png",
           "description": "Ce Pass permet la participation, pour une danse, à tous les cours donnés par SalsaDeRue dans tout le secteur Finistère",
           "studentTarif": 180,
           "studentTarif2Niveaux": 250
@@ -456,14 +456,14 @@
         {
           "name": "Deux Danses",
           "tarif": 350,
-          "image": "/images/etudiant-full-pass.png",
+          "image": "./images/etudiant-full-pass.png",
           "description": "Ce Pass permet la participation à toutes les danses et cours donnés par SalsaDeRue dans tout le secteur Finistère",
           "studentTarif": 300
         },
         {
           "name": "Trois Danses",
           "tarif": 395,
-          "image": "/images/decouverte.png",
+          "image": "./images/decouverte.png",
           "description": "Ce Pass permet la participation, pour toutes les danse, à tous les cours donnés par SalsaDeRue dans tout le secteur Finistère",
           "studentTarif": 340
         }
@@ -472,16 +472,16 @@
     {
       "name": "Bordeaux",
       "title": "Secteur Bordeaux",
-      "imageDepartement": "/images/bordeaux.png",
+      "imageDepartement": "./images/bordeaux.png",
       "iconDepartement": "/images/iconBordeaux.png",
       "villes": [
         {
           "name": "Bassens",
-          "image": "/images/bordeaux.png",
+          "image": "./images/bordeaux.png",
           "danses": [
             {
               "name": "Salsa Cubaine",
-              "image": "/images/salsa-cubaine.jpg",
+              "image": "./images/salsa-cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -540,7 +540,7 @@
           "name": "Une Danse",
           "tarif": 190,
           "tarif2Niveaux": 250,
-          "image": "/images/etudiant-decouverte.png",
+          "image": "./images/etudiant-decouverte.png",
           "description": "Ce Pass permet la participation, pour une danse, à tous les cours donnés par SalsaDeRue dans tout le secteur Bassens (de votre niveau)",
           "studentTarif": 170,
           "studentTarif2Niveaux": 230
