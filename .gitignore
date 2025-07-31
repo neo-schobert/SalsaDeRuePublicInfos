@@ -7,10 +7,9 @@
 # Ne pas ignorer le fichier datas.json
 !datas.json
 
-# Ne pas ignorer le dossier images
+# Ne pas ignorer le dossier images et tout son contenu
 !images/
-# Inclure le contenu du dossier images
-images/**
+!images/**
 
 # Ne pas ignorer le fichier upload.js
 !upload.js
