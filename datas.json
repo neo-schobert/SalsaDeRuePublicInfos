@@ -3,19 +3,19 @@
     {
       "name": "Finistère",
       "title": "Secteur Finistère",
-      "imageDepartement": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/finistere.jpg",
-      "iconDepartement": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/iconBretagne.png",
+      "imageDepartement": "/images/finistere.jpg",
+      "iconDepartement": "/images/iconBretagne.png",
       "instagramLink": "https://www.instagram.com/salsaderue_finistere/",
       "facebookLink": "https://www.facebook.com/AssociationSalsaderue",
       "email": "salsaderue_brest@hotmail.com",
       "villes": [
         {
           "name": "Brest",
-          "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/brest.jpg",
+          "image": "/images/brest.jpg",
           "danses": [
             {
               "name": "Salsa Cubaine",
-              "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/salsa cubaine.jpg",
+              "image": "/images/salsa cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -26,7 +26,7 @@
                   "Essai Gratuit",
                   "Disponible sur Brest, Briec, Quimper et Pont l'Abbé"
                 ],
-                "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/exemple.webp"
+                "image": "/images/exemple.webp"
               },
               "cours": [
                 {
@@ -43,7 +43,7 @@
                   "reprise": "2025-09-15",
                   "professeur": {
                     "professeurName": "Néo",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/neo.png",
+                    "professeurPhoto": "/images/profs/neo.png",
                     "professeurPhone": "07 82 15 78 06",
                     "professeurDescription": ""
                   }
@@ -62,7 +62,7 @@
                   "reprise": "2025-09-15",
                   "professeur": {
                     "professeurName": "Néo",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/neo.png",
+                    "professeurPhoto": "/images/profs/neo.png",
                     "professeurPhone": "07 82 15 78 06",
                     "professeurDescription": ""
                   }
@@ -71,7 +71,7 @@
             },
             {
               "name": "Bachata",
-              "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/bachata.jpg",
+              "image": "/images/bachata.jpg",
               "infos": {
                 "title": "Cours de Bachata",
                 "description": "La bachata moderne et urbaine, originaire de République dominicaine, est une danse de couple aux mouvements fluides et sensuels 💃. Elle combine des éléments traditionnels avec des influences contemporaines 🎶, mettant l'accent sur la connexion entre les partenaires 👥.",
@@ -81,7 +81,7 @@
                   "Essai Gratuit",
                   "Disponible sur Pont l'Abbé, Brest"
                 ],
-                "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/exemple.webp"
+                "image": "/images/exemple.webp"
               },
               "cours": [
                 {
@@ -98,7 +98,7 @@
                   "reprise": "2025-09-15",
                   "professeur": {
                     "professeurName": "Néo",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/neo.png",
+                    "professeurPhoto": "/images/profs/neo.png",
                     "professeurPhone": "07 82 15 78 06",
                     "professeurDescription": ""
                   }
@@ -107,7 +107,7 @@
             },
             {
               "name": "Reggaeton - New Style",
-              "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/reggaeton_newstyle.jpg",
+              "image": "/images/reggaeton_newstyle.jpg",
               "infos": {
                 "title": "Cours Reggaeton - New Style",
                 "description": "Le reggaeton - new style 🔥, c'est une explosion d'énergie et d'attitude, mêlant rythmes urbains, influences latines et danse contemporaine. Sensualité, puissance et style se rencontrent pour une expression libre et affirmée. Nos cours sont ouverts à tous, débutants comme avancés, pour te faire vibrer, t'affirmer et repousser tes limites avec SalsaDeRue 💥.",
@@ -118,7 +118,7 @@
                   "Rattrapage des Absences Possible",
                   "Disponible à Quimper, Brest !"
                 ],
-                "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/exemple.webp"
+                "image": "/images/exemple.webp"
               },
               "cours": [
                 {
@@ -135,7 +135,7 @@
                   "reprise": "2025-09-15",
                   "professeur": {
                     "professeurName": "Néo",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/neo.png",
+                    "professeurPhoto": "/images/profs/neo.png",
                     "professeurPhone": "07 82 15 78 06",
                     "professeurDescription": ""
                   }
@@ -146,11 +146,11 @@
         },
         {
           "name": "Quimper",
-          "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/quimper.jpg",
+          "image": "/images/quimper.jpg",
           "danses": [
             {
               "name": "Salsa Cubaine",
-              "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/salsa cubaine.jpg",
+              "image": "/images/salsa cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -161,7 +161,7 @@
                   "Essai Gratuit",
                   "Disponible sur Brest, Briec, Quimper et Pont l'Abbé"
                 ],
-                "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/exemple.webp"
+                "image": "/images/exemple.webp"
               },
               "cours": [
                 {
@@ -178,7 +178,7 @@
                   "reprise": "2025-09-15",
                   "professeur": {
                     "professeurName": "Sandie",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/sandie.png",
+                    "professeurPhoto": "/images/profs/sandie.png",
                     "professeurPhone": "07 63 71 73 68",
                     "professeurDescription": ""
                   }
@@ -187,7 +187,7 @@
             },
             {
               "name": "Salsa Cubaine Style",
-              "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/salsa cubaine style.jpg",
+              "image": "/images/salsa cubaine style.jpg",
               "required": [
                 {
                   "danse": "Salsa Cubaine",
@@ -202,7 +202,7 @@
                   "Essai Gratuit",
                   "Disponible uniquement à Quimper !"
                 ],
-                "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/exemple.webp"
+                "image": "/images/exemple.webp"
               },
               "cours": [
                 {
@@ -219,7 +219,7 @@
                   "reprise": "2025-09-15",
                   "professeur": {
                     "professeurName": "Néo",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/neo.png",
+                    "professeurPhoto": "/images/profs/neo.png",
                     "professeurPhone": "07 82 15 78 06",
                     "professeurDescription": ""
                   }
@@ -228,7 +228,7 @@
             },
             {
               "name": "Reggaeton - New Style",
-              "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/reggaeton_newstyle.jpg",
+              "image": "/images/reggaeton_newstyle.jpg",
               "infos": {
                 "title": "Cours Reggaeton - New Style",
                 "description": "Le reggaeton - new style 🔥, c'est une explosion d'énergie et d'attitude, mêlant rythmes urbains, influences latines et danse contemporaine. Sensualité, puissance et style se rencontrent pour une expression libre et affirmée. Nos cours sont ouverts à tous, débutants comme avancés, pour te faire vibrer, t'affirmer et repousser tes limites avec SalsaDeRue 💥.",
@@ -237,7 +237,7 @@
                   "Essai Gratuit",
                   "Disponible uniquement à Quimper !"
                 ],
-                "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/exemple.webp"
+                "image": "/images/exemple.webp"
               },
               "cours": [
                 {
@@ -254,7 +254,7 @@
                   "reprise": "2025-09-15",
                   "professeur": {
                     "professeurName": "Néo",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/neo.png",
+                    "professeurPhoto": "/images/profs/neo.png",
                     "professeurPhone": "07 82 15 78 06",
                     "professeurDescription": ""
                   }
@@ -265,11 +265,11 @@
         },
         {
           "name": "Pont L'abbé",
-          "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/pont-l-abbe.jpg",
+          "image": "/images/pont-l-abbe.jpg",
           "danses": [
             {
               "name": "Salsa Cubaine",
-              "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/salsa-cubaine.jpg",
+              "image": "/images/salsa-cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -280,7 +280,7 @@
                   "Essai Gratuit",
                   "Disponible sur Brest, Briec, Quimper et Pont l'Abbé"
                 ],
-                "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/exemple.webp"
+                "image": "/images/exemple.webp"
               },
               "cours": [
                 {
@@ -297,7 +297,7 @@
                   "reprise": "2025-09-15",
                   "professeur": {
                     "professeurName": "Laurent",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/laurent.png",
+                    "professeurPhoto": "/images/profs/laurent.png",
                     "professeurPhone": "06 73 67 63 37",
                     "professeurDescription": ""
                   }
@@ -316,7 +316,7 @@
                   "reprise": "2025-09-15",
                   "professeur": {
                     "professeurName": "Laurent",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/laurent.png",
+                    "professeurPhoto": "/images/profs/laurent.png",
                     "professeurPhone": "06 73 67 63 37",
                     "professeurDescription": ""
                   }
@@ -335,7 +335,7 @@
                   "reprise": "2025-09-15",
                   "professeur": {
                     "professeurName": "Laurent",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/laurent.png",
+                    "professeurPhoto": "/images/profs/laurent.png",
                     "professeurPhone": "06 73 67 63 37",
                     "professeurDescription": ""
                   }
@@ -344,7 +344,7 @@
             },
             {
               "name": "Bachata",
-              "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/bachata.jpg",
+              "image": "/images/bachata.jpg",
               "infos": {
                 "title": "Cours de Bachata",
                 "description": "La bachata moderne, originaire de République dominicaine, est une danse de couple aux mouvements fluides et sensuels 💃. Elle combine des éléments traditionnels avec des influences contemporaines 🎶, mettant l'accent sur la connexion entre les partenaires 👥.",
@@ -354,7 +354,7 @@
                   "Essai Gratuit",
                   "Disponible sur Pont l'Abbé, Brest"
                 ],
-                "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/exemple.webp"
+                "image": "/images/exemple.webp"
               },
               "cours": [
                 {
@@ -371,7 +371,7 @@
                   "reprise": "2025-09-15",
                   "professeur": {
                     "professeurName": "Laurent",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/laurent.png",
+                    "professeurPhoto": "/images/profs/laurent.png",
                     "professeurPhone": "06 73 67 63 37",
                     "professeurDescription": ""
                   }
@@ -382,11 +382,11 @@
         },
         {
           "name": "Briec",
-          "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/briec.jpg",
+          "image": "/images/briec.jpg",
           "danses": [
             {
               "name": "Salsa Cubaine",
-              "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/salsa cubaine.jpg",
+              "image": "/images/salsa cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -397,7 +397,7 @@
                   "Essai Gratuit",
                   "Disponible sur Brest, Briec, Quimper et Pont l'Abbé"
                 ],
-                "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/exemple.webp"
+                "image": "/images/exemple.webp"
               },
               "cours": [
                 {
@@ -414,7 +414,7 @@
                   "reprise": "2025-09-15",
                   "professeur": {
                     "professeurName": "Laurent",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/laurent.png",
+                    "professeurPhoto": "/images/profs/laurent.png",
                     "professeurPhone": "06 73 67 63 37",
                     "professeurDescription": ""
                   }
@@ -433,7 +433,7 @@
                   "reprise": "2025-09-15",
                   "professeur": {
                     "professeurName": "Laurent",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/laurent.png",
+                    "professeurPhoto": "/images/profs/laurent.png",
                     "professeurPhone": "06 73 67 63 37",
                     "professeurDescription": ""
                   }
@@ -448,7 +448,7 @@
           "name": "Une Danse",
           "tarif": 210,
           "tarif2Niveaux": 290,
-          "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/etudiant-decouverte.png",
+          "image": "/images/etudiant-decouverte.png",
           "description": "Ce Pass permet la participation, pour une danse, à tous les cours donnés par SalsaDeRue dans tout le secteur Finistère",
           "studentTarif": 180,
           "studentTarif2Niveaux": 250
@@ -456,14 +456,14 @@
         {
           "name": "Deux Danses",
           "tarif": 350,
-          "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/etudiant-full-pass.png",
+          "image": "/images/etudiant-full-pass.png",
           "description": "Ce Pass permet la participation à toutes les danses et cours donnés par SalsaDeRue dans tout le secteur Finistère",
           "studentTarif": 300
         },
         {
           "name": "Trois Danses",
           "tarif": 395,
-          "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/decouverte.png",
+          "image": "/images/decouverte.png",
           "description": "Ce Pass permet la participation, pour toutes les danse, à tous les cours donnés par SalsaDeRue dans tout le secteur Finistère",
           "studentTarif": 340
         }
@@ -472,16 +472,16 @@
     {
       "name": "Bordeaux",
       "title": "Secteur Bordeaux",
-      "imageDepartement": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/bordeaux.png",
-      "iconDepartement": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/iconBordeaux.png",
+      "imageDepartement": "/images/bordeaux.png",
+      "iconDepartement": "/images/iconBordeaux.png",
       "villes": [
         {
           "name": "Bassens",
-          "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/bordeaux.png",
+          "image": "/images/bordeaux.png",
           "danses": [
             {
               "name": "Salsa Cubaine",
-              "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/salsa-cubaine.jpg",
+              "image": "/images/salsa-cubaine.jpg",
               "infos": {
                 "title": "Cours de Salsa Cubaine",
                 "description": "La salsa cubaine 💃 est une danse influencée par les rythmes afro-cubains, souvent dansée en couple ou en groupe sous forme de rueda de casino. Tous les aspects de cette danse sont enseignés chez SalsaDeRue 🔥.",
@@ -489,7 +489,7 @@
                   "2 niveaux: débutants, intermédiaires",
                   "Essai Gratuit"
                 ],
-                "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/exemple.webp"
+                "image": "/images/exemple.webp"
               },
               "cours": [
                 {
@@ -506,7 +506,7 @@
                   "reprise": "2024-08-11",
                   "professeur": {
                     "professeurName": "Sandrine",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/sandrine.jpg",
+                    "professeurPhoto": "/images/profs/sandrine.jpg",
                     "professeurPhone": "06 24 14 77 61",
                     "professeurDescription": ""
                   }
@@ -525,7 +525,7 @@
                   "reprise": "2024-08-11",
                   "professeur": {
                     "professeurName": "Sandrine",
-                    "professeurPhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/profs/sandrine.jpg",
+                    "professeurPhoto": "/images/profs/sandrine.jpg",
                     "professeurPhone": "06 24 14 77 61",
                     "professeurDescription": ""
                   }
@@ -540,7 +540,7 @@
           "name": "Une Danse",
           "tarif": 190,
           "tarif2Niveaux": 250,
-          "image": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/etudiant-decouverte.png",
+          "image": "/images/etudiant-decouverte.png",
           "description": "Ce Pass permet la participation, pour une danse, à tous les cours donnés par SalsaDeRue dans tout le secteur Bassens (de votre niveau)",
           "studentTarif": 170,
           "studentTarif2Niveaux": 230
@@ -555,37 +555,37 @@
     {
       "partenaireName": "E.Leclerc Pont L'Abbé",
       "partenaireDescription": "Le E.Leclerc de Pont-l'Abbé vous propose un large choix de produits de qualité à prix Leclerc. Profitez de promotions régulières et d'une expérience shopping conviviale. Découvrez nos offres en ligne et en magasin !",
-      "partenairePhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/ELeclerc Pont Labbe.jpg",
+      "partenairePhoto": "/images/ELeclerc Pont Labbe.jpg",
       "partenaireUrl": "https://leclerc-pont-labbe.fr/"
     },
     {
       "partenaireName": "L'Orange Bleue Brest",
       "partenaireDescription": "Bienvenue à L'Orange Bleue de Brest, votre salle de sport dynamique et accessible à tous ! Profitez d'un la e choix d'équipements modernes, de cours collectifs stimulants et d'un encadrement personnalisé pour atteindre vos objectifs de remise en forme. Dans une ambiance conviviale, laissez-vous motiver par notre équipe passionnée. Rejoignez-nous et vivez une expérience fitness unique !",
-      "partenairePhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/orange bleue brest.jpg",
+      "partenairePhoto": "/images/orange bleue brest.jpg",
       "partenaireUrl": "https://www.lorangebleue.fr/clubs/brest-centre/"
     },
     {
       "partenaireName": "Intermarché Briec",
       "partenaireDescription": "L'Intermarché de Briec vous accueille dans un cadre chaleureux avec un large choix de produits du quotidien. Profitez de nos offres locales, de services pratiques et d'un véritable accompagnement pour rendre vos courses plus agréables. Faites un tour en magasin pour découvrir nos nouveautés et promotions exclusives !",
-      "partenairePhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/Intermarche Briec.png",
+      "partenairePhoto": "/images/Intermarche Briec.png",
       "partenaireUrl": "https://www.intermarche.com/magasin"
     },
     {
       "partenaireName": "L'Appart Fitness Plonéour-lanvern",
       "partenaireDescription": "Découvrez l'Appart Fitness de Plonéour-lanvern, un espace moderne et convivial dédié à votre bien-être. Profitez d'équipements de pointe, de cours variés et d'une ambiance motivante pour atteindre vos objectifs.",
-      "partenairePhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/appart fitness.jpg",
+      "partenairePhoto": "/images/appart fitness.jpg",
       "partenaireUrl": "https://clubs.lappartfitness.com/57-l-appart-fitness-ploneour-lanvern"
     },
     {
       "partenaireName": "La Casa Negra",
       "partenaireDescription": "Location de salle à Langolen",
-      "partenairePhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/casanegra.png",
+      "partenairePhoto": "/images/casanegra.png",
       "partenaireUrl": "https://www.google.fr/maps/place/CASANEGRA/@48.0649633,-3.9336884,17z/data=!3m1!4b1!4m6!3m5!1s0x481127094b060eef:0xe472a4c263ec01fb!8m2!3d48.0649598!4d-3.9288175!16s%2Fg%2F11y56_y3k8?hl=fr&entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"
     },
     {
       "partenaireName": "Gym In Fitness Quimper",
       "partenaireDescription": "Bienvenue à Gym In Fitness Quimper, votre salle de sport dynamique et accessible à tous ! Profitez d'un large choix d'équipements modernes, de cours collectifs stimulants et d'un encadrement personnalisé pour atteindre vos objectifs de remise en forme. Dans une ambiance conviviale, laissez-vous motiver par notre équipe passionnée. Rejoignez-nous et vivez une expérience fitness unique !",
-      "partenairePhoto": "https://raw.githubusercontent.com/neo-schobert/SalsaDeRuePublicInfos/refs/heads/master/images/gym fitness.jpg",
+      "partenairePhoto": "/images/gym fitness.jpg",
       "partenaireUrl": "https://www.gymin-fitness.fr/"
     }
   ],
