@@ -108,6 +108,12 @@
             {
               "name": "Reggaeton - New Style",
               "image": "./images/reggaeton_newstyle.jpg",
+              "required": [
+                {
+                  "danse": "Salsa Cubaine",
+                  "level": 2
+                }
+              ],
               "infos": {
                 "title": "Cours Reggaeton - New Style",
                 "description": "Le reggaeton - new style 🔥, c'est une explosion d'énergie et d'attitude, mêlant rythmes urbains, influences latines et danse contemporaine. Sensualité, puissance et style se rencontrent pour une expression libre et affirmée. Nos cours sont ouverts à tous, débutants comme avancés, pour te faire vibrer, t'affirmer et repousser tes limites avec SalsaDeRue 💥.",
@@ -229,6 +235,12 @@
             {
               "name": "Reggaeton - New Style",
               "image": "./images/reggaeton_newstyle.jpg",
+              "required": [
+                {
+                  "danse": "Salsa Cubaine",
+                  "level": 2
+                }
+              ],
               "infos": {
                 "title": "Cours Reggaeton - New Style",
                 "description": "Le reggaeton - new style 🔥, c'est une explosion d'énergie et d'attitude, mêlant rythmes urbains, influences latines et danse contemporaine. Sensualité, puissance et style se rencontrent pour une expression libre et affirmée. Nos cours sont ouverts à tous, débutants comme avancés, pour te faire vibrer, t'affirmer et repousser tes limites avec SalsaDeRue 💥.",
